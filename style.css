@@ -45,17 +45,38 @@ section > *{
 }
 .container-riquadro{
     width: calc(100% / 2);
-    border-style: dashed;
+   
+    display: flex;
+    justify-content: center;
     
 }
 .primo-riquadro{
     height: 100px;
-    width: 100px;
+    width: 100%;
+    border-style: dashed;
+   
 }
 .secondo-riquadro{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 100%;
+    border-style: dashed;
 }
+.card-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border-style: dashed;
+}
+.card {
+    width: calc(100%  / 3);
+    border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 
 
    
