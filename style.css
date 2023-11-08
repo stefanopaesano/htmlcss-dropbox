@@ -34,47 +34,109 @@ section > *{
 }
 
 .altro-container{
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     display: flex;
     align-items: start;
     justify-content: center;
     border-style: solid;
     flex-wrap: wrap;
+    background-color: lightblue;
     
 }
 .container-riquadro{
-    width: calc(100% / 2);
+    width: 100% ;
     display: flex;
     justify-content: center;
+   
+
+   
     
 }
+.conteiner-img-grande{
+    border: solid black;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -90px;
+ 
+
+}
+
 .primo-riquadro{
-    height: 100px;
-    width: 100%;
-    border-style: solid;
+    min-height: 150px;
+    width: 80%;
+    
+}
+.button{
+    background-color: blue;
+    width: 40%;
+    margin-top: 10px;
+}
+#annulla{
+margin-top: 10px;
+
+}
+#arrow{
+    margin-top: 30px;
    
+    
 }
+
+
+
 .secondo-riquadro{
-    height: 200px;
+    min-height: 200px;
     width: 100%;
-    border-style: solid;
+    
 }
+.img-grande{
+    max-width: 100%;
+    height: 90%;
+   
+
+}
+
+
+
+
 .card-container{
     display: flex;
     width: 100%;
-    height: 500px;
-    border-style: solid;
+    min-height: 500px;
+    border-style: solid ;
+    
 }
 .card {
     width: calc(100%  / 3);
-    border-style: solid;
+    min-height: 700px;
+    border: solid rgb(78, 77, 77);
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
 
 }
+.titolo-card{
+    border: solid 2px red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-section{
+    display: inline;
+}
+li{
+list-style: none;
+}
+
+
+
 .jambo{
     height: 300px;
     width: 100%;
