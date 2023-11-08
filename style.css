@@ -160,21 +160,43 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: solid;
+    border: solid ;
+    background-color: lightblue;
 }
 .container-jambo {
     width: 80%;
     height: 200px;
-    border-style: solid;
+    border: solid  rgb(78, 77, 77);;
     
 
 }
-.container-jambo > *{
+#city{
     width: 100%;
     height: 30px;
-    border-style: solid;
+    border: solid  rgb(78, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+#lorem-10-enterprice{
+    margin-top: 30px;
+}
+
+.button-jumbo{
+    position: relative;
+    bottom: 70px;
+    left: 70%;
+}
+.button-2{
+    background-color: blue;
+    width: 20%;
+    height: 30px;
+
+}
+
+
+
 .secondo-altro-container{
     height: 500px;
     width: 100%;
@@ -188,7 +210,7 @@ hr{
 .primo-sec-riquadro{
     height: 300px;
     width: 100%;
-    border-style: solid;
+    border: solid  rgb(78, 77, 77);;
    
 }
 .secondo-sec-riquadro{
