@@ -72,8 +72,9 @@ section > *{
 }
 .button{
     background-color: blue;
-    width: 40%;
+    width: 60%;
     margin-top: 10px;
+    height: 30px;
 }
 #annulla{
 margin-top: 10px;
@@ -131,8 +132,24 @@ margin-top: 10px;
 .main-section{
     display: inline;
 }
+.second-section{
+    display: inline;
+}
+.gratis-giorni{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 li{
 list-style: none;
+}
+hr{
+    margin-top: 20px;
+    width: 30%;
 }
 
 
