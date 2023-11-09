@@ -8,6 +8,10 @@
     width: 100%;
     margin: 0 auto;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
 
 .header-main-container{
     height: 50px;
@@ -24,7 +28,7 @@ padding: 10px;
 section{
     display: flex;
     align-items: center;
-    margin-left: 65%;
+    
     
 }
 
@@ -210,18 +214,30 @@ hr{
 .primo-sec-riquadro{
     height: 300px;
     width: 100%;
-    border: solid  rgb(78, 77, 77);;
-   
+    border: solid  rgb(78, 77, 77);
 }
+.primo-sec-riquadro > * {
+    width: 100%;
+    height: 100%;
+}
+
+
 .secondo-sec-riquadro{
     height: 200px;
     width: 100%;
     border-style: solid;
 }
+.secondo-sec-riquadro > *{
+     padding: 20px;
+}
+
+
+
+
 .secondo-card-container{
     display: flex;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     justify-content: space-around;
     border-style: solid;
     flex-wrap: wrap;
@@ -234,11 +250,31 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.main-section-second-card{
+    width: 100%;
+    height: 50%;
+}
+.second-section-second-card{
+    width: 100%;
+    height: 50%;
+
+}
+
+
+
+
 .titlo-2{
     height: 40px;
-    width: 80%;
+    width: 100%;
     border-style: dashed;
 }
+.titlo-2 > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .titlo-3{
     margin-top: 20px;
     height: 100px;
