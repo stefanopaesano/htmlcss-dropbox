@@ -12,6 +12,9 @@ img{
     width: 100%;
     height: 100%;
 }
+html{
+    font: bolder;
+}
 
 .header-main-container{
     height: 50px;
@@ -152,8 +155,10 @@ li{
 list-style: none;
 }
 hr{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 30%;
+
+    
 }
 
 
@@ -279,11 +284,16 @@ hr{
     margin-top: 20px;
     height: 100px;
     width: 100%;
-    border-style: dashed;
+    
 }
+.titlo-3 > *{
+ padding: 20px;
+}
+
+
 .container-img{
     display: flex;
-    border-style: solid;
+    border: 1px solid;
     
 }
 .qudrato-img{
@@ -291,7 +301,65 @@ hr{
     width: 33.33%;
     height: 300px;
     border-style: dashed;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+#order-1{
+    order: 1;
+    background-color: aqua;
+}
+#order-2{
+    order: 2;
+    background-color: red;
+}
+#order-3{
+    order: 3;
+    background-color: green;
+}
+#order-4{
+    order: 4;
+    background-color: yellow;
+}
+#order-6{
+    order: 4;
+    background-color: blue;
+}
+#order-7{
+    order: 4;
+    background-color: brown;
+}
+#order-8{
+    order: 4;
+    background-color: purple;
+}
+#order-9{
+    order: 4;
+    background-color: fuchsia;
+}
+
+.qudrato-img-mezzo{
+    margin-top: 20px;
+    width: 33.33%;
+    height: 300px;
+    border-style: dashed;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qudrato-img-mezzo > *{
+    padding: 10px;
+}
+
+
+.img-logo-piccola{
+    width: 50%;
+    height: 50%;
+    border: solid 3px;
+
+}
+
+
+
 .porta-dropbox{
     width: 100%;
     height: 300px;
@@ -299,13 +367,35 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: lightblue;
 }
 .container-porta-dropbox{
     width: 50%;
     height: 200px;
     border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 
 }
+
+
+.container-porta-dropbox > h3{
+    color: purple;
+}
+
+.button-porta{
+    background-color: white;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+
+
+
+
 .domande-freq{
     width: 100%;
     height: 500px;
@@ -319,22 +409,44 @@ hr{
     width: 50%;
     height: 300px;
     border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
+
+.titolo-domande-frequenti{
+position: relative;
+right: 100px;
+bottom: 30px;
+}
+
+.container-domande-freq > div >li{
+    border-top: solid  rgb(78, 77, 77);
+
+
+}
+
+
+
+
+
+
+
 footer{
     background-color: rgb(37, 37, 37);
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 100%;
+    height: 300px;
+    width: calc(100% / 5);
 }
 .chiaro {
     margin-top: 20px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    width: calc(100% / 4);
     width: 100px;
     height: 200px;
     border: 3px dashed white;
