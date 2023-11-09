@@ -15,29 +15,31 @@ img{
 html{
     font: bolder;
 }
+.header-full{
+   width: 100%;
+   margin: 0 auto;
+}
 
-.header-main-container{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-style: solid;
+.header-main-container{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.header-main-container nav li{
+    display: inline-block;
+    
+   
 }
 
 .header-main-container > *{
 padding: 10px;
 }
 
-
-section{
-    display: flex;
-    align-items: center;
-    
-    
-}
-
-
 section > *{
-    padding: 10px;
+   margin-top: 10px;
 }
 
 .altro-container{
@@ -46,40 +48,38 @@ section > *{
     display: flex;
     align-items: start;
     justify-content: center;
-    border-style: solid;
     flex-wrap: wrap;
-    background-color: lightblue;
-    
+    background-color: lightblue;   
 }
+
+
+
+
 .container-riquadro{
     width: 100% ;
     display: flex;
-    justify-content: center;
-   
-
-   
-    
+    justify-content: center; 
+    position: relative;
+    bottom: 15px;
 }
 .conteiner-img-grande{
-    border: solid black;
     min-height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
     margin-bottom: -90px;
- 
-
 }
 
 .primo-riquadro{
     min-height: 150px;
     width: 80%;
-    
+    margin-top: 30px;   
 }
+
 .button{
     background-color: blue;
-    width: 60%;
+    width: 40%;
     margin-top: 10px;
     height: 30px;
 }
@@ -98,7 +98,7 @@ margin-top: 10px;
 .secondo-riquadro{
     min-height: 200px;
     width: 100%;
-    
+    margin-top: 30px;
 }
 .img-grande{
     max-width: 100%;
@@ -121,14 +121,17 @@ margin-top: 10px;
     width: calc(100%  / 3);
     min-height: 700px;
     border: solid rgb(78, 77, 77);
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 10px;
 
 }
-.titolo-card{
-    border: solid 2px red;
+
+
+
+.user-card{
+    border: solid 2px grey;
     width: 100%;
     height: 50px;
     display: flex;
@@ -136,12 +139,15 @@ margin-top: 10px;
     justify-content: center;
 
 }
+
 .main-section{
     display: inline;
 }
+
 .second-section{
     display: inline;
 }
+
 .gratis-giorni{
     width: 100%;
     display: flex;
@@ -212,7 +218,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: solid;
+   
    
    
 }
@@ -230,8 +236,9 @@ hr{
 .secondo-sec-riquadro{
     height: 200px;
     width: 100%;
-    border-style: solid;
+
 }
+
 .secondo-sec-riquadro > *{
      padding: 20px;
 }
@@ -244,7 +251,7 @@ hr{
     width: 100%;
     min-height: 500px;
     justify-content: space-around;
-    border-style: solid;
+    
     flex-wrap: wrap;
 }
 .seconda-card {
@@ -440,7 +447,7 @@ footer{
     align-items: center;
     justify-content: center;
     height: 300px;
-    width: calc(100% / 5);
+    width: 100% ;
 }
 .chiaro {
     margin-top: 20px;
@@ -451,6 +458,11 @@ footer{
     height: 200px;
     border: 3px dashed white;
 }
+.chiaro > *{
+    color: white;
+
+}
+   
 
 
 
